@@ -1,10 +1,10 @@
-* {
+header , main{
     font-family: 'Open Sans', sans-serif;
 }
 
 header {
     text-align: center;
-    background-image: url("../images/donation2.jpg");
+    background-image: url("../images/donation13.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,11 +14,12 @@ header {
 /* banner styles */
 .banner {
     /* position: relative; */
+    border: 0;
     display: flex;
     height: 780px;
     justify-content: center;
     align-items: center;
-    text-shadow: black;
+    text-shadow: 2px 2px black;
 }
 
 .banner-title {
@@ -40,13 +41,17 @@ header {
     padding: 18px 35px;
     border-radius: 5px;
 }
+hr{
+    margin-left: 120px;
+    margin-right: 120px;
+}
 /* main section */
 /* donate today */
 section{
         margin-top: 130px;
         margin-bottom: 30px;
 }
-.donate , .plan{
+.donate , .plan , .email-updates{
     text-align: center;
 }
 .title{
@@ -84,9 +89,10 @@ section{
 
 .plan-container{
     display:flex;
+    border: 0 200px;
 }
 .plan{
-    
+    align-items: justify;
     padding: 18px 35px;
     gap: 35px;
     border-radius: 5px;
@@ -98,10 +104,64 @@ section{
 }
 .one{
     background: aliceblue;
+    padding: 30px 35px;
 }
 .two{
     background: rgb(255, 242, 242);
+    padding: 30px 35px;
 }
 .three{
     background: antiquewhite;
+    padding: 30px 35px;
+}
+/* contribute section */
+
+.c-one{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.c-text{
+    margin-left: 120px;
+    margin-right: 75px;
+    
+}
+.c-img{
+    margin-left: 120px;
+   margin-right: 70px ;
+   border-radius: 20px;
+}
+.user-email{
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    padding: 120px 0;
+    margin-top: 75px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 135px;
+    background: wheat;
+}
+.button-sec{
+    color: white;
+    background-color: rgb(243, 78, 78);
+    font-weight: 700;
+    border: 0;
+    font-size: 20px;
+    padding: 18px 35px;
+}
+#email{
+    border: 0;
+    padding: 16px;
+    background-color: aliceblue;
+}
+
+.footer{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    color: rgb(243, 78, 78);
+    background-color: rgb(9, 9, 46);
+    padding-top: 20px;
+    padding-bottom: 20px;
+border: 0;
 }
