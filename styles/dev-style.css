@@ -15,7 +15,7 @@ header {
 .banner {
     /* position: relative; */
     display: flex;
-    height: 675px;
+    height: 780px;
     justify-content: center;
     align-items: center;
     text-shadow: black;
@@ -26,7 +26,7 @@ header {
     font-weight: 800;
 }
 
-.banner-description{
+.description{
     font-size: 20px;
     font-weight: 500;
 }
@@ -39,4 +39,69 @@ header {
     font-size: 20px;
     padding: 18px 35px;
     border-radius: 5px;
+}
+/* main section */
+/* donate today */
+section{
+        margin-top: 130px;
+        margin-bottom: 30px;
+}
+.donate , .plan{
+    text-align: center;
+}
+.title{
+    font-size: 45px;
+    font-weight: 600;
+}
+.amount{
+    display: flex;
+    /* align-items: center; */
+    text-align: center;
+    justify-content: center;
+}
+.tk{
+    background: aliceblue;
+    color: rgb(243, 78, 78);
+    padding: 20px 40px;
+    font-weight: 700;
+    font-size: 54px;
+    border-radius: 10px;
+    margin-left: 24px;
+    /* border-style: solid;
+    border-color: rgb(243, 78, 78); */
+}
+.tk:hover{
+    border-style: solid;
+    border-color: rgb(243, 78, 78);
+    background: rgb(255, 242, 242);
+    
+}
+.custom-amount {
+    border: 0;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+.plan-container{
+    display:flex;
+}
+.plan{
+    
+    padding: 18px 35px;
+    gap: 35px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+}
+.plan .plan-title{
+    font-size: 20px;
+    font-weight: 600;
+}
+.one{
+    background: aliceblue;
+}
+.two{
+    background: rgb(255, 242, 242);
+}
+.three{
+    background: antiquewhite;
 }
